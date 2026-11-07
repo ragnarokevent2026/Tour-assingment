@@ -831,7 +831,7 @@
         required
     ></textarea>
 
-    <button type="submit" id="submit-inquiry">Submit Inquiry</button>
+    <button type="submit" id="submitButtona">Submit Inquiry</button>
 
  </form>
 
@@ -889,7 +889,9 @@
 
     });
 
-
+document.getElementById("submitButtona").addEventListener("click", function() {
+    alert("Button clicked!");
+});
     // Close mobile menu after selecting a section
 
     document.querySelectorAll(".nav-links a").forEach(link => {
